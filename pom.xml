@@ -11,7 +11,7 @@
     <groupId>com.personalsite</groupId>
     <artifactId>personalsite</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>personalsite</name>
+    <name>PersonalSite</name>
     <description>Michael Garrison Personal Site</description>
 
     <properties>
@@ -51,10 +51,10 @@
         </dependency>
 
         <!-- SECURITY -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-security</artifactId>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
