@@ -19,11 +19,12 @@ public class ContactController {
     }
 
     @GetMapping("/contact")
-    public String contact(){
+    public String contact(Model model){
+        model.addAttribute("contact", new Contact());
         return "contact";
     }
 
-    @PostMapping("/contact")
+    @PostMapping("/contact/submit")
     public String contactRequest(@ModelAttribute Contact contact){
         Contact contacts = contactDao.save(contact);
         contacts.setCreateDateTime(contacts.getCreateDateTime());
