@@ -16,4 +16,9 @@ public class HomeController {
         return "about";
     }
 
+    @GetMapping("/portfolio")
+    public String portfolioPage(){
+        return "portfolio";
+    }
+
 }
