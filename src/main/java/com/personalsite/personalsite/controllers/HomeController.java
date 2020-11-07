@@ -21,4 +21,9 @@ public class HomeController {
         return "portfolio";
     }
 
+    @GetMapping("/canvas")
+    public String canvasPage(){
+        return "canvas";
+    }
+
 }
